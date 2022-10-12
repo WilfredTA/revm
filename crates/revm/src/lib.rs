@@ -2,6 +2,7 @@
 //#![no_std]
 
 pub mod db;
+pub mod extensions;
 mod evm;
 mod evm_impl;
 pub(crate) mod gas;
